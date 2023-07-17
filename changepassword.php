@@ -12,7 +12,7 @@ require_once("partials/header.php");
         <h5 class="mb-0">Profile</h5>
       </div>
       <div class="card-body">
-       <div class="row">
+       <div class="row cast">
         <div class="col-12">
             <div class="text-center mb-3">
                 <img src="assets/images/dp.jpg" class="img-fluid rounded-circle">
