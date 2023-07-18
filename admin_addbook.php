@@ -3,7 +3,7 @@ require_once("partials/header.php");
 require_once("class/Category.php");
 $catOne = new Category();
 $categories = $catOne -> fetchAllCategories();
-print_r($categories);
+// print_r($categories);
 ?>
 <div class="container">
     

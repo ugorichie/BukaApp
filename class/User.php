@@ -139,10 +139,10 @@
     }
 
     //to check if the method would work, instantiate the class and input 
-    $userOne = new User();
-    echo("<pre>");
-    print_r ($userOne->getUserDetails(12));
-    echo("</pre>");
+    // $userOne = new User();
+    // echo("<pre>");
+    // print_r ($userOne->getUserDetails(12));
+    // echo("</pre>");
 
 
 

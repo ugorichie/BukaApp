@@ -67,19 +67,19 @@ curl_close($curl);
 </section>
 
 
-<section>
+<!-- <section>
 
-<?php
-if($result->success){
-  foreach($result->data as $proverb){
-    ?>
+//<?php
+//if($result->success){
+ // foreach($result->data as $proverb){
+ //   ?>
 
 
-    <h3> <?php echo $proverb->pro_body ?></h3>
+    <h3> <?php // echo $proverb->pro_body ?></h3>
 
   <?php
-  }
-}
+ // }
+//} -->
 ?>
 
 

@@ -1,10 +1,10 @@
 <?php
 require_once("partials/header.php");
-require("class//book.php");
+require("class/book.php");
 
 $book1 = new Book();
 $books = $book1 -> fetchBook();
-print_r($books);
+// print_r($books);
 ?>
 <div class="container">
     
