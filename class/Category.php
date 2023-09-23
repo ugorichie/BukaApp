@@ -1,13 +1,11 @@
 <?php
 
-
     require_once("Db.php");
 
     class Category extends Db{
 
 
     //method to fecth all categories
-
     public function fetchAllCategories(){
         $sql = "SELECT * FROM category";
         $stmt = $this->connect()->prepare($sql);
